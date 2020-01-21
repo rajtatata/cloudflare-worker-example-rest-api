@@ -1,0 +1,37 @@
+{
+  "name": "cloudflare-worker-example-rest-api",
+  "version": "1.0.0",
+  "description": "Cloudflare worker example app, using the cloudflare-worker-rest-api package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js",
+    "publish": "wrangler publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajtatata/cloudflare-worker-example-rest-api.git"
+  },
+  "author": "Flavio Rajta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajtatata/cloudflare-worker-example-rest-api/issues"
+  },
+  "homepage": "https://github.com/rajtatata/cloudflare-worker-example-rest-api#readme",
+  "keywords": [
+    "express",
+    "expressjs",
+    "cloudflare",
+    "worker",
+    "rest",
+    "api"
+  ],
+  "dependencies": {
+    "cloudflare-worker-rest-api": "^1.0.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}

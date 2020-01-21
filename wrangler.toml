@@ -1,0 +1,5 @@
+name = "worker"
+type = "javascript"
+account_id = "_____ your account id here _____"
+workers_dev = true
+zone_id = "_____ your zone id here _____"
