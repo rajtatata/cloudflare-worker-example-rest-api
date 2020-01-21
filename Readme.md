@@ -36,12 +36,8 @@ superlongapitoken
 ```
 npm install
 ```
-8. Build the project with webpack
-    - it will create the js source file inside dist folder
-```
-npm run build
-```
-9. Now we are ready to deploy/publish our app using wrangler
+8. Publish the project with wrangler
+    - it will install packages, build, and the deploy to cloudflare
 ```
 npm run publish
 ```

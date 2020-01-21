@@ -1,4 +1,4 @@
-const restCfWorker = require("cloudflare-worker-rest-api")
+const restCfWorker = require('cloudflare-worker-rest-api')
 
 const authRouter = require('./routers/auth')
 const itemRouter = require('./routers/item')

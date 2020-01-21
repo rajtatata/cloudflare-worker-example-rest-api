@@ -1,5 +1,6 @@
 name = "worker"
-type = "javascript"
-account_id = "_____ your account id here _____"
+type = "webpack"
+account_id = "_your_account_id_"
 workers_dev = true
-zone_id = "_____ your zone id here _____"
+zone_id = "_your_zone_id_"
+webpack_config = "webpack.config.js"
