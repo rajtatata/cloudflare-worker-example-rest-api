@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "cloudflare-worker-rest-api": "^1.0.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {}
 }
